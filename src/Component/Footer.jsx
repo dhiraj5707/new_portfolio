@@ -12,7 +12,7 @@ const Footer = () => {
     <div className='footer'>
     <img src={Wava} alt='' style={{width:"100%"}}/>
     <div className='f-content'>
-    <span>dhirajkumar02bgs@gmail.com</span>
+    <span>dhirajkumar02bgs@gmail.com(deploy demo)</span>
         <div className='f-icon'>
                 <a href='https://instagram.com/dhiraj_love_prajapati_07?igshid=MzNlNGNkZWQ4Mg=='><Insta color="white" size="3rem"/> </a>                
                 <a href='https://www.facebook.com/dhirajkumar.dk.75?mibextid=ZbWKwL'><Facebook color="white" size="3rem"/></a>
