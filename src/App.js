@@ -12,6 +12,8 @@ import { useContext } from "react";
 import Portfolio from "./Component/Portfolio";
 import Skill from "./Component/Skills"
 
+
+
 function App() {
   const theme=useContext(themeContext)
   const darkMode =theme.state.darkMode;
