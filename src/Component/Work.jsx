@@ -15,23 +15,26 @@ const Work = () => {
   const darkMode=theme.state.darkMode;
 
   return (
-    <div className='works' id='Workrands & '>
-    <div className='awesome'>
-      <span style={{color:darkMode? 'white':''}}>Works for All these</span>
-      <span>personal Website</span>
-      <span>My work in college day like project.
-      <br/>As I am fresher, I dont  have experience, <br/>
-       but I am quick learner and very hardworking person. <br/>
-        I am ready to learn new things. 
-    
+    <div className='works' id='Workrands'>
+    <div className='awesome' id='ASW'>
+      <span id='work' style={{color:darkMode? 'white':''}}>Works for All these</span>
+      <span id='pw'>personal Website</span>
+      <span id='text'>Python*: Ideal for automating tasks and building web apps with frameworks like Django, perfect for personal websites with dynamic features.
+    <br/> <br/> 
+JavaScript*: Essential for adding interactivity and dynamic content to your personal website, ensuring a responsive user experience.
+<br/> <br/>   
+Python: Powers dynamic and data-driven websites.
+JavaScript: Adds interactivity and dynamic content to websites.
       </span>
       <button className='button s-button'id='btn'>Hire me</button>
       <div className='blur s-blur1' style={{background:"#ABF1FF94"}}></div>
     </div>
+
+
     {/* right side */}
-    <div className='w-right'>
+    <div className='w-right' id='w-right' >
     <motion.div
-        initial={{rotate:50}}
+        initial={{rotate:80}}
         whileInView={{rotate:0}}
         viewport={{margin:'-40px'}}
         transition={{duration:3.5, type:'spring'}}

@@ -4,18 +4,26 @@
     box-sizing: border-box;
     font-family: 'poppins',sans-serif;
 }
-.left{     
+.skill_main{
     width: 100%;
-    height: 500px;
+    height: 700px;
+}
+.left{
+    margin-top: -2%;
+}
+.skill_main .left{ 
+    top: auto;      
 }
 .right{
     width: 50%;
     float:right;
 }
-.myskill p{
+.myskill h1{
 font-weight: bold;
 font-size: 20PX;
+/* margin-top:5%; */
 }
+
 .myskill{
     margin-top: -20px;
 }
@@ -43,6 +51,9 @@ h2{
 .title{
     margin-right: 95%;
     width: 9%;
+}
+.skill{
+    margin-top: 5%;
 }
 .container1{
     position: relative;
@@ -81,22 +92,44 @@ h2{
     opacity: 0;
 
 }
+.skill-per.html{
+    width: 95%;
+    animation-delay: 0.1s;
+}
 .skill-per.css{
     width: 70%;
-    animation-delay: 0.1s;
+    animation-delay: 0.5s;
 }
 .skill-per.react{
     width: 75%;
-    animation-delay: 0.2s;
+    animation-delay: 0.6s;
 
-}.skill-per.javascript{
-    width: 55%;
+}.skill-per.js{
+    width: 60%;
+    animation-delay: 0.7s;
+
+}.skill-per.py{
+    width: 85%;
     animation-delay: 0.3s;
-
-}.skill-per.python{
-    width: 80%;
+}
+.skill-per.dj{
+    width:80%;
     animation-delay: 0.4s;
-
+}
+#react{
+    display: flex;
+    width: 100%;
+   
+}
+#css{
+    margin-left: -10px;
+}
+.css p{
+    margin-left: -115px;  
+    margin-right: 45px;
+}
+#container_id{
+    margin-top: 7%;
 }
 @keyframes progress{
     0%{
@@ -140,17 +173,27 @@ h2{
 }
 @media screen and (max-width:480px)
 {
+    .skill_main{
+        margin-top: 50%;
+    }
     .skill{
-        margin-top: -50px;
+        margin-top: -70px;
         margin-left: -70px;
         display:block;
         align-items: flex-start;
         justify-content: flex-start;
         transform: scale(0.7);
     }
+    .myskill h1{
+        display: none;
+    }
+    .myskill h2{
+        display: none;
+    }
     .left-skill{
-    margin-left: 90px;
+    margin-left: 100px;
     font-size: 20px;
+    text-align: center;
     }
     .title{
         width: 12%;
@@ -162,10 +205,14 @@ h2{
         margin-left: 80px;
 
     }
+    #container_id{
+        transform: scale(0.8);
+        margin-right: 15px;
+
+    }
     .left-skill h2{
-        justify-content: center;
-       align-items: center;
-       margin-left: 50%;
+       margin-left: 60%;
+       text-align: center;
     }
     .container{
         display: block;
@@ -173,12 +220,14 @@ h2{
         margin-left: -180px;
     }
     .right-skill{
-        margin-left: -180px;
+        margin-left: -100%;
+        margin-bottom: -10%;
         justify-content: center;
+        text-align: center;
     }
     .right{
         display:inline-block;
-        margin-top: 120%;
+        margin-top: 113%;
         margin-left: -120px;
     }
 

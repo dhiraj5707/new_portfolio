@@ -44,7 +44,7 @@ color: black;
 }
 .achivement span:nth-of-type(1){
     color: rgb(255, 0, 0);
-    font-weight: bold;
+    font-weight: bold;  
 }
 
 @media screen and (max-width:720px)
@@ -52,6 +52,6 @@ color: black;
     .experience{
         gap: 3rem;
         margin-bottom: -6rem;
-        margin-top: 22rem;
+        margin-top: 8rem;
     } 
 }

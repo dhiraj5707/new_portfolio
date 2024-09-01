@@ -1,11 +1,20 @@
 .works{
     padding: 0 3rem 0 3rem;
     display: flex;
-    height: 90vh;
+    height: 70vh;
     margin-top: 4rem;
 }
 .w-right{
     position: relative;
+}
+#ASW{
+    width:50%;
+    margin-top: -4%;
+}
+#w-right{
+    width: 50%;
+    margin-top: -4%;
+
 }
 .w-mainCircle{
     left: 9rem;
@@ -80,34 +89,170 @@ background: white;
     top: 8rem;
 }
 #btn{
-    margin-left: 90px;
+    margin-left:13rem;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
 }
-
-@media screen and (max-width:480px)
-{
-    .works{
-        flex-direction: column;
-        height: 55rem;
-        padding: 0;
-        gap: 5rem;
-    }
-    .w-right{
+@media screen and (max-width:480px){
+    #work{
+        width: 100%;
+        font-size: 32px;
         display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        transform: scale(0.7);
     }
-    .w-mainCircle{
-        position: static;
-    }
-    .w-backCircle{
-        left: 8rem !important;
-    }
-    .awesome{
-        margin-left: -160px;
-    }
-    #btn{
-        margin-left: 250px;
+    #pw
+    {
+        display: flex;
+        width: 100%;
+        font-size: 32px;
     }
     
+    #ASW{
+        margin-top: -60%;
+        display: flex;
+        width: 100%;
+        font-size: 20px;
+        flex-basis: 100%;
+        margin-left: 1%;
+    }
+    #btn{
+        width: 40%;
+        margin-left: 80px !important;
+        margin-top: 15%;
+        position: relative;
+    }
+    #text{
+        margin-top: 10%;
+    }
+    #w-right{
+        position: absolute;
+        display: flex;
+        width: 100%;
+        align-items: flex-start;
+        justify-content:start;
+        transform: scale(0.7);
+        margin-top: 115%;
+        margin-left: -28%;
+    }
+   
+    
 }
+
+
+
+
+
+
+
+
+/*
+{@media screen and (max-width: 480px) {
+    .works {
+      flex-direction: column;
+      height: 55rem;
+      padding: 0;
+      gap: 5rem;
+    }
+  
+    .w-right {
+      display: flex;
+      align-items: flex-start;
+      justify-content:start;
+      transform: scale(0.6);
+    }
+    .w-mainCircle{
+      position: static;
+      margin-left: 15rem;
+      margin-top: 12rem;
+    }
+    .w-backCircle{
+      left: 18rem!important;
+    }
+    #ASW{
+        margin-top: 15%;
+        display: flex;
+        width: 100%;
+        flex-basis: 100%;
+        margin-left: 1%;
+    }
+    #btn{
+        width: 40%;
+        margin-left: 105px !important;
+        margin-top: 15%;
+    }
+    
+    .w-mainCircle{
+    left: -9rem;
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    background-color: rgb(38, 201, 46);
+    border-radius:100%;
+    box-shadow: var(--smboxShadow);
+    top: 12rem;
+}
+.w-mainCircle>*{
+    position: absolute;
+}
+.w-mainCircle>:nth-child(1)
+{
+    top: -31rem;
+    left: 5rem;
+    
+}
+.w-mainCircle>:nth-child(2)
+{
+    top: -21rem;
+    left: -4rem;
+}
+.w-mainCircle>:nth-child(3)
+{
+    top: -21rem;
+    left: 6rem;
+}
+.w-mainCircle>:nth-child(4)
+{
+    top: -11rem;
+    left: 6rem;
+}
+.w-mainCircle>:nth-child(5)
+{
+    top: -21rem;
+    left: 15rem;
+}
+.w-secCircle{
+width: 6rem;
+height: 6rem;
+position: absolute;
+border-radius: 100%;
+border: 5px solid #f1ecec;
+display: flex;
+align-items: center;
+justify-content: center;
+background: none;
+box-shadow: var(--smboxShadow);
+background: rgb(237, 230, 230);
+}
+.w-secCircle>img{
+    transform: scale(0.6);
+}
+.w-backCircle{
+    position: absolute;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 100%;
+    z-index: -1;
+}
+.blueCircle{
+    background-color: #1949bb;
+    left: 18rem;
+    top: 3rem;
+}
+.yellowCircle{
+    background-color: hsl(45, 91%, 57%);
+    left: 18rem;
+    top: -4rem;
+}
+  
+  }   
+} */

@@ -80,7 +80,7 @@
 }
 .i-right>:nth-child(2)
 {
-    top: -5.9rem;
+    top: -4rem;
     transform: scale(0.69);
     left: -1rem;
 }
@@ -126,14 +126,22 @@
         transform: scale(0.8);
         left: -3rem;
     }
+    .i-right #boy{
+        margin-left: 20px !important;
+    }
+    
     .i-right .blur{
         display: none;
     }
     .floating-div:nth-of-type(1){
-        top: -7rem !important;
+        top: -10rem !important;
+        margin-bottom: -20rem !important;
+        direction: none;
+       
     }
+  
     .i-button{
-        margin-left: 6rem;
+        margin-left: 8rem;
     }
     .i-name{
         align-items: center;

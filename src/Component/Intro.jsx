@@ -31,7 +31,7 @@ const Intro = () => {
     <span>Dhiraj Kumar</span>
     <span>
     Frontend Developer with high level of experience in web designing</span> 
-    <span> and development,producting the Quality work</span>
+    <span> and development,producting the Quality work.</span>
     </div>
     <button className='button i-button'>Hire me</button>
     <div className='i-icons'>
@@ -44,7 +44,9 @@ const Intro = () => {
     <div className='i-right'>
     <img src={vector11} alt=''/>
     <img src={vector22} alt=''/>
-    <img style={{width:'19rem', height:'23.57em'}} src={boy} alt=''/>
+    <img  id='boy' style={{width:'28rem', height:'27.28em', marginLeft:'-66px' ,top:'0.5px'}} 
+   
+    src={boy} alt=''/>
 
     <motion.img 
     initial={{left:'-36%'}}
@@ -58,19 +60,18 @@ const Intro = () => {
       transition={transition}
       style={{top:'-4%' ,left:'68%'}}
       className='floating-div'>
-      <FloatingDiv image={crown} text1='Web' text2='Developer'/>
+      <FloatingDiv  id='dev' image={crown} text1='Web' text2='Developer'/>
     </motion.div>
 
     <motion.div 
       initial={{left:'9rem',top:'23.2rem'}}
-      whileInView={{left:'0rem'}}
-      transition={transition}
+      whileInView={{left:'0rem'}}       transition={transition}
       style={{top:'23.2rem',left:'1.2rem'}}
       className='floating-div'>
       <FloatingDiv image={thumbup}text1='Best Design' text2='Award'/>
     </motion.div>
 
-    {/* blur divs */}
+    {/* blur divs */} 
     <div className='blur' style={{background:"rgb(238 210 255)"}}></div>
     <div className='blur' style={{
       background:'#c1F5FF',
