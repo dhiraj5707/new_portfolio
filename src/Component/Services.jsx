@@ -6,7 +6,7 @@ import Glasses from "../Img/glasses.png";
 import Humble from "../Img/humble.png";
 import { themeContext } from "../Context";
 import { motion } from "framer-motion";
-import Resume from '../Img/resume.pdf';
+// import Resume from '../Img/resume.pdf';
 
 const Services = () => {
   const transition ={duration:1,type:'spring'}
@@ -28,7 +28,7 @@ const Services = () => {
         <br/><br/>
         I Can Build a Comercial Website and Portfolio and also themes
         </spane>
-        <a href={Resume} download>
+        <a href="https://drive.google.com/file/d/1g_7g7mOGzF1pOmkxFyFIglzV7mwmerXF/view?usp=drive_link" target="_blank">
           <button className="button s-button" id="btn_down">Download CV</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
