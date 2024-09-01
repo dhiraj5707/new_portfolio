@@ -14,10 +14,10 @@ const Contact = () => {
     
       const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm('service_xwzw69p', 'template_k83htjj', form.current, '2DQoeLfQX6aIoie55')
+        emailjs.sendForm('service_ci1w20r', 'template_ufex02c', form.current, 'fiTUR7t12K7f-OwnA')
           .then((result) => {
               console.log(result.text);
-              setDone(true)
+              setDone(true); 
           }, (error) => {
               console.log(error.text);
           });
@@ -35,13 +35,13 @@ const Contact = () => {
             </div>
            
         </div>  
-        <div className=' c-right'>
+        <div className='c-right'>
             <form ref={form} onSubmit={sendEmail}>
                 <input type='text' name='user_name' className='user' placeholder='Name'/>
                 <input type='email' name='user_email' className='user' placeholder='Email'/>
                 <textarea name='message' className='user' placeholder='Message' />
                 <input type='submit' value="Send" className='button'/>
-                <span>{done && "Thanks for contacting me!"}</span>
+                <span>{done && "Thanks for contacting me!" }</span>
                 <div  
                     className='blue c-blurl'
                     style={{background:"var( --purple)"}}>
