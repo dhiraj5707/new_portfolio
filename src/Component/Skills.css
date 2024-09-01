@@ -63,6 +63,7 @@ h2{
     margin: 0 15px;
     padding: 10px 20px;
     border-radius: 8px;
+    
 }
 .container1 .skill-box{
     width: 100%;
@@ -202,7 +203,7 @@ h2{
     }
     .container1{
         display:inline-block;
-        margin-left: 80px;
+        margin-left: 40px;
 
     }
     #container_id{

@@ -54,7 +54,7 @@ import { themeContext } from '../Context';
               </div>
 
               <div className='skill-box'>
-                <span className='title'style={{color:darkMode? 'white' :''}}>Dajngo</span>
+                <span className='title'style={{color:darkMode? 'white' :''}}>Django</span>
                 <div className='skill-bar'>
                     <span className='skill-per dj'>
                         <span className='tooltip'>80%</span>
