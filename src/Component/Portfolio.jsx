@@ -18,7 +18,7 @@
 //     <div className='portfolio' id='Portfolio'>
 //     {/* heading */}
 //     <span style={{color:darkMode? 'white':''}}>Recent Projects</span>
-//     <span>Portfolio</span> 
+//     <span>Portfolio</span>
 //     {/* slider */}
 //     <Swiper
 //     spaceBetween={30}
@@ -31,19 +31,19 @@
 //       </SwiperSlide>
 //       <SwiperSlide>
 //         <img src={Portfolio2} alt=''/>
-//       </SwiperSlide> 
+//       </SwiperSlide>
 //       <SwiperSlide>
 //         <img src={Portfolio5} alt=''/>
-//       </SwiperSlide> 
+//       </SwiperSlide>
 //       <SwiperSlide>
 //         <img src={Portfolio4} alt=''/>
 //       </SwiperSlide>
 //       <SwiperSlide>
 //         <img src={Portfolio3} alt=''/>
-//       </SwiperSlide> 
+//       </SwiperSlide>
 //       <SwiperSlide>
 //         <img src={Portfolio1} alt=''/>
-//       </SwiperSlide> 
+//       </SwiperSlide>
 //       <SwiperSlide>
 //         <img src={Portfolio7} alt=''/>
 //       </SwiperSlide>
@@ -54,10 +54,9 @@
 // }
 // export default Portfolio
 
-
 import React, { useContext } from "react";
 import "./Portfolio.css";
-import { Swiper, SwiperSlide } from "swiper/react"
+import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import Sidebar from "../Img/portfolio3.jpg";
 import Ecommerce from "../Img/portfolio2.jpg";
@@ -69,7 +68,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio" id="portfolio">
       {/* heading */}
-      <span style={{color: darkMode?'white': ''}}>Recent Projects</span>
+      <span style={{ color: darkMode ? "white" : "" }}>Recent Projects</span>
       <span>Portfolio</span>
 
       {/* slider */}
@@ -77,9 +76,13 @@ const Portfolio = () => {
         spaceBetween={30}
         slidesPerView={3}
         grabCursor={true}
-        className="portfolio-slider" id="card">
+        className="portfolio-slider"
+        id="card"
+      >
         <SwiperSlide>
-          <img src={Sidebar} alt=""  />
+          <a href="https://dhiraj5707.github.io/Linkedin/" target="_blank">
+            <img src={Sidebar} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
           <img src={Ecommerce} alt="" />
@@ -87,11 +90,9 @@ const Portfolio = () => {
         <SwiperSlide>
           <img src={MusicApp} alt="" />
         </SwiperSlide>
-       
       </Swiper>
     </div>
   );
 };
 
 export default Portfolio;
-
